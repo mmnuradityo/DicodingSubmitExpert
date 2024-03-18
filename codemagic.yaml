@@ -12,22 +12,19 @@ workflows:
       - name: Run tests
         script: |
           xcodebuild \
-            -workspace "$XCODE_WORKSPACE" \
-            -scheme "$XCODE_SCHEME" \
-            -sdk iphonesimulator \
-            -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.0' \
-            clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+          -workspace "$XCODE_WORKSPACE" \
+          -scheme "$XCODE_SCHEME" \
+          -sdk iphonesimulator \
+          -archive-xcargs "CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM=<4N88KY43XS>" \
+          -destination 'platform=iOS Simulator,name=iPhone 12 Pro Max,OS=16.0' \
+          clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO 
       - name: Build debug app
         script: |
           xcodebuild build \
-            -workspace "$XCODE_WORKSPACE" \
-            -scheme "$XCODE_SCHEME" \
-            -sdk iphonesimulator \
-            -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.0' \
-            -configuration Debug \
-            CODE_SIGN_IDENTITY="" \
-            CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGNING_ALLOWED=NO
+          -workspace "$XCODE_WORKSPACE" \
+          -scheme "$XCODE_SCHEME" \
+          -archive-xcargs "CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM=<4N88KY43XS>" \
+          CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     artifacts:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
     publishing:
