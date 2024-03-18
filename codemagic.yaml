@@ -5,8 +5,8 @@ workflows:
       xcode: latest
       cocoapods: default
       vars:
-          XCODE_WORKSPACE: "DicodingSubmit.xcworkspace"
-          XCODE_SCHEME: "DS_ExpertIOS"
+          XCODE_WORKSPACE: "DS_ExpertIOS/DicodingSubmit.xcworkspace"
+          XCODE_SCHEME: "DS_ExpertIOS/DS_ExpertIOS"
     scripts:
       - name: Run tests
         script: |
