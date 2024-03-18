@@ -37,6 +37,7 @@
 		84F323DE2B5B8305007265D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F323DD2B5B8305007265D0 /* AppDelegate.swift */; };
 		84F323E22B5B8305007265D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F323E12B5B8305007265D0 /* HomeViewController.swift */; };
 		84F324162B5BD158007265D0 /* HomeGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F324152B5BD158007265D0 /* HomeGameTableViewCell.swift */; };
+		9D0146A1EE29AE6364725554 /* Pods_DS_ExpertIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB889488E1EFF1754E6D4D1F /* Pods_DS_ExpertIOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 			files = (
 				84CF95E92BA828A7004C2E7F /* RealmSwift in Frameworks */,
 				84CF95E72BA828A7004C2E7F /* Realm in Frameworks */,
+				9D0146A1EE29AE6364725554 /* Pods_DS_ExpertIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CF95E32BA82860004C2E7F /* Build configuration list for PBXNativeTarget "DS_ExpertIOSTests" */;
 			buildPhases = (
+				42F884E0C088CD81440B1F0D /* [CP] Check Pods Manifest.lock */,
 				84CF95D72BA82860004C2E7F /* Sources */,
 				84CF95D82BA82860004C2E7F /* Frameworks */,
 				84CF95D92BA82860004C2E7F /* Resources */,
@@ -428,6 +431,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		42F884E0C088CD81440B1F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DS_ExpertIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4F09980229993E31C9C34CF5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -527,6 +552,7 @@
 /* Begin XCBuildConfiguration section */
 		84CF95E12BA82860004C2E7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838748A38FC34547EBB56F2F /* Pods-DS_ExpertIOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +571,7 @@
 		};
 		84CF95E22BA82860004C2E7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5619D8F21D6D68F26F14D16D /* Pods-DS_ExpertIOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
