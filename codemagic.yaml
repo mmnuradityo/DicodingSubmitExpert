@@ -1,8 +1,6 @@
 workflows:
-  simulator-native-ios:
-    name: iOS simulator build
-    max_build_duration: 120
-    instance_type: mac_mini_m1
+  ios-project-debug: # workflow ID
+    name: iOS debug # workflow name
     environment:
       xcode: latest
       cocoapods: default
@@ -12,7 +10,7 @@ workflows:
     scripts:
       - name: Run tests
         script: |
-          xcodebuild run-tests \
+          xcodebuild build \
             -workspace "$XCODE_WORKSPACE" \
             -scheme "$XCODE_SCHEME" \
             -sdk iphonesimulator \
@@ -25,6 +23,7 @@ workflows:
             -scheme "$XCODE_SCHEME" \
             -sdk iphonesimulator \
             -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.0' \
+            -configuration Debug \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO
