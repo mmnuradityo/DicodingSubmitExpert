@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25F95EE4C08FFCBA86CFFF42 /* Pods_DS_ExpertIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB889488E1EFF1754E6D4D1F /* Pods_DS_ExpertIOSTests.framework */; };
 		5635170F275124ECD7283D6F /* Pods_DS_ExpertIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD8C8BB629A839301DE7079 /* Pods_DS_ExpertIOS.framework */; };
 		8407B5ED2B5D499B004E2BAF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B5EC2B5D499B004E2BAF /* MainTabBarController.swift */; };
 		842D8F712BA4450B001F2CB2 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8F702BA4450B001F2CB2 /* FavoriteViewController.swift */; };
@@ -15,12 +14,8 @@
 		8498C9A32BA74F2B0095BD37 /* DSSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 8498C9A22BA74F2B0095BD37 /* DSSearch */; };
 		8498C9A82BA75F030095BD37 /* DSDetailView in Frameworks */ = {isa = PBXBuildFile; productRef = 8498C9A72BA75F030095BD37 /* DSDetailView */; };
 		8498C9AB2BA766780095BD37 /* DSProfile in Frameworks */ = {isa = PBXBuildFile; productRef = 8498C9AA2BA766780095BD37 /* DSProfile */; };
-		8498C9C72BA7CB710095BD37 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498C9BA2BA769790095BD37 /* RouterTests.swift */; };
-		8498C9C82BA7CB9C0095BD37 /* InjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498C9B22BA7689C0095BD37 /* InjectionTests.swift */; };
 		8498C9CB2BA7D4400095BD37 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8498C9CA2BA7D4400095BD37 /* Realm */; };
 		8498C9CD2BA7D4400095BD37 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8498C9CC2BA7D4400095BD37 /* RealmSwift */; };
-		8498C9CF2BA7D46C0095BD37 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8498C9CE2BA7D46C0095BD37 /* Realm */; };
-		8498C9D12BA7D46C0095BD37 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8498C9D02BA7D46C0095BD37 /* RealmSwift */; };
 		849C5FA02B97C05F00CB4612 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C5F9F2B97C05F00CB4612 /* HomeInteractor.swift */; };
 		849C5FA22B97D74800CB4612 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C5FA12B97D74800CB4612 /* MainRouter.swift */; };
 		849C5FA82B981E2900CB4612 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C5FA72B981E2900CB4612 /* HomeRouter.swift */; };
@@ -40,16 +35,6 @@
 		84F324162B5BD158007265D0 /* HomeGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F324152B5BD158007265D0 /* HomeGameTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		842D8F852BA485F8001F2CB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84F323D22B5B8305007265D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84F323D92B5B8305007265D0;
-			remoteInfo = DS_ExpertIOS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0FD8C8BB629A839301DE7079 /* Pods_DS_ExpertIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DS_ExpertIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A7452580A5A63B32DB9879 /* Pods-DS_ExpertIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DS_ExpertIOS.debug.xcconfig"; path = "Target Support Files/Pods-DS_ExpertIOS/Pods-DS_ExpertIOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +43,6 @@
 		8407B5EC2B5D499B004E2BAF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		8409981C2BA6933C007BA080 /* DsCoreIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DsCoreIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D8F702BA4450B001F2CB2 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
-		842D8F812BA485F8001F2CB2 /* DS_ExpertIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DS_ExpertIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8498C99E2BA71DBE0095BD37 /* DSBase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSBase; path = ../Module/DSBase; sourceTree = "<group>"; };
 		8498C9A12BA74D8B0095BD37 /* DSSearch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSSearch; path = ../Module/DSSearch; sourceTree = "<group>"; };
 		8498C9A62BA75B130095BD37 /* DSDetailView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSDetailView; path = ../Module/DSDetailView; sourceTree = "<group>"; };
@@ -95,16 +79,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		842D8F7E2BA485F8001F2CB2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8498C9D12BA7D46C0095BD37 /* RealmSwift in Frameworks */,
-				8498C9CF2BA7D46C0095BD37 /* Realm in Frameworks */,
-				25F95EE4C08FFCBA86CFFF42 /* Pods_DS_ExpertIOSTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		84F323D72B5B8305007265D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,7 +227,6 @@
 			isa = PBXGroup;
 			children = (
 				84F323DA2B5B8305007265D0 /* DS_ExpertIOS.app */,
-				842D8F812BA485F8001F2CB2 /* DS_ExpertIOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -318,29 +291,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		842D8F802BA485F8001F2CB2 /* DS_ExpertIOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 842D8F872BA485F8001F2CB2 /* Build configuration list for PBXNativeTarget "DS_ExpertIOSTests" */;
-			buildPhases = (
-				2F3776D415588DAA709F3A5F /* [CP] Check Pods Manifest.lock */,
-				842D8F7D2BA485F8001F2CB2 /* Sources */,
-				842D8F7E2BA485F8001F2CB2 /* Frameworks */,
-				842D8F7F2BA485F8001F2CB2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				842D8F862BA485F8001F2CB2 /* PBXTargetDependency */,
-			);
-			name = DS_ExpertIOSTests;
-			packageProductDependencies = (
-				8498C9CE2BA7D46C0095BD37 /* Realm */,
-				8498C9D02BA7D46C0095BD37 /* RealmSwift */,
-			);
-			productName = DS_ExpertIOSTests;
-			productReference = 842D8F812BA485F8001F2CB2 /* DS_ExpertIOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		84F323D92B5B8305007265D0 /* DS_ExpertIOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F323EE2B5B8306007265D0 /* Build configuration list for PBXNativeTarget "DS_ExpertIOS" */;
@@ -379,11 +329,6 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					842D8F802BA485F8001F2CB2 = {
-						CreatedOnToolsVersion = 14.0.1;
-						LastSwiftMigration = 1400;
-						TestTargetID = 84F323D92B5B8305007265D0;
-					};
 					84F323D92B5B8305007265D0 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -407,19 +352,11 @@
 			projectRoot = "";
 			targets = (
 				84F323D92B5B8305007265D0 /* DS_ExpertIOS */,
-				842D8F802BA485F8001F2CB2 /* DS_ExpertIOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		842D8F7F2BA485F8001F2CB2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		84F323D82B5B8305007265D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,28 +369,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2F3776D415588DAA709F3A5F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DS_ExpertIOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4F09980229993E31C9C34CF5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,15 +412,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		842D8F7D2BA485F8001F2CB2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8498C9C72BA7CB710095BD37 /* RouterTests.swift in Sources */,
-				8498C9C82BA7CB9C0095BD37 /* InjectionTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		84F323D62B5B8305007265D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,14 +437,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		842D8F862BA485F8001F2CB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84F323D92B5B8305007265D0 /* DS_ExpertIOS */;
-			targetProxy = 842D8F852BA485F8001F2CB2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		84E997012B96099400F11199 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -551,59 +449,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		842D8F882BA485F8001F2CB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 838748A38FC34547EBB56F2F /* Pods-DS_ExpertIOSTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aditya.dicoding.DS-ExpertIOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "-Swift.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS_ExpertIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DS_ExpertIOS";
-			};
-			name = Debug;
-		};
-		842D8F892BA485F8001F2CB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5619D8F21D6D68F26F14D16D /* Pods-DS_ExpertIOSTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aditya.dicoding.DS-ExpertIOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "-Swift.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS_ExpertIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DS_ExpertIOS";
-			};
-			name = Release;
-		};
 		84F323EC2B5B8306007265D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -785,15 +630,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		842D8F872BA485F8001F2CB2 /* Build configuration list for PBXNativeTarget "DS_ExpertIOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				842D8F882BA485F8001F2CB2 /* Debug */,
-				842D8F892BA485F8001F2CB2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		84F323D52B5B8305007265D0 /* Build configuration list for PBXProject "DS_ExpertIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -856,16 +692,6 @@
 			productName = Realm;
 		};
 		8498C9CC2BA7D4400095BD37 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8498C9C92BA7D4400095BD37 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-		8498C9CE2BA7D46C0095BD37 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8498C9C92BA7D4400095BD37 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		8498C9D02BA7D46C0095BD37 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8498C9C92BA7D4400095BD37 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
