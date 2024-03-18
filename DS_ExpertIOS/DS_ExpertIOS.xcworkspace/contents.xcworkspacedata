@@ -4,10 +4,4 @@
    <FileRef
       location = "group:DS_ExpertIOS.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../Module/DsCoreIos/DsCoreIos.xcodeproj">
-   </FileRef>
 </Workspace>
