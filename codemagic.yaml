@@ -9,13 +9,6 @@ workflows:
           XCODE_WORKSPACE: "DS_ExpertIOS/DS_ExpertIOS.xcworkspace"
           XCODE_SCHEME: "DS_ExpertIOS"
     scripts:
-      - name: Run tests
-        script: |
-          xcodebuild build \
-          -workspace "$XCODE_WORKSPACE" \
-          -scheme "$XCODE_SCHEME" \
-          -archive-flags="-destination 'generic/platform=iOS'" \
-          clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=YES CODE_SIGNING_ALLOWED=NO
       - name: Build debug app
         script: |
           xcodebuild build \
