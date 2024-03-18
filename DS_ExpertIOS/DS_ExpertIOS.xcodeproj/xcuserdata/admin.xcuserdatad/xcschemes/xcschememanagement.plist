@@ -114,13 +114,6 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>DS_ExpertIOSTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
 		<key>GettingStarted (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>

@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>Pods-DS_ExpertIOS.xcscheme</key>
+		<key>3337835D64712A5C6455EB1B48F5EDC7</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>Pods-DS_ExpertIOSTests.xcscheme</key>
+		<key>36A839ACF0F29267175F103904ABA54F</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict/>
 </dict>
 </plist>
