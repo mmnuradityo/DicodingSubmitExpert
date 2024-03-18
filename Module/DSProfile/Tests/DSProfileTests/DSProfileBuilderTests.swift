@@ -2,7 +2,7 @@ import XCTest
 import RealmSwift
 
 @testable import DSProfile
-final class DSProfileTests: XCTestCase {
+final class DSProfileBuilderTests: XCTestCase {
   
   func testRouter() throws {
     let profileController = ProfileRouter().makeEditProfileViewController()

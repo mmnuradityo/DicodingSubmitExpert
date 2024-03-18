@@ -9,7 +9,7 @@ import XCTest
 import RealmSwift
 
 @testable import DSSearch
-final class DSSearchTests: XCTestCase {
+final class DSSearchBuilderTests: XCTestCase {
   
   func testBuilder() throws {
     let search = SearchViewBarBuilder().create()

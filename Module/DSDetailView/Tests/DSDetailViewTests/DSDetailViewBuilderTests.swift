@@ -9,7 +9,7 @@ import XCTest
 import RealmSwift
 
 @testable import DSDetailView
-final class DSDetailViewTests: XCTestCase {
+final class DSDetailViewBuilderTests: XCTestCase {
   
   func testBuilder() throws {
     let detail = DetailViewBuilder().create(game: nil)
