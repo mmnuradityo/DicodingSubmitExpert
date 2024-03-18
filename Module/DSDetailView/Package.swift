@@ -24,7 +24,10 @@ let package = Package(
         .target(
             name: "DSDetailView",
             dependencies: [
-              "DSCore", "Cleanse", "DSBase"
+              .product(name: "RealmSwift", package: "realm-swift"),
+              "DSCore",
+              "Cleanse",
+              "DSBase"
             ]),
         .testTarget(
             name: "DSDetailViewTests",
