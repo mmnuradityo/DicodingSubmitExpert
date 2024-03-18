@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DsCoreIos.xcscheme_^#shared#^_</key>
+		<key>DsCoreIos.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>9</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>842D8F9F2BA563ED001F2CB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>842D8FA92BA563ED001F2CB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
