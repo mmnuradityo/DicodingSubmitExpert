@@ -6,7 +6,7 @@ workflows:
       cocoapods: default
       vars:
           XCODE_WORKSPACE: "DS_ExpertIOS/DS_ExpertIOS.xcworkspace"
-          XCODE_SCHEME: "DS_ExpertIOS/DS_ExpertIOS"
+          XCODE_SCHEME: "DS_ExpertIOS"
     scripts:
       - name: Run tests
         script: |
