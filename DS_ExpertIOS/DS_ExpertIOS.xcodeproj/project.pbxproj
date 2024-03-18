@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5635170F275124ECD7283D6F /* Pods_DS_ExpertIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD8C8BB629A839301DE7079 /* Pods_DS_ExpertIOS.framework */; };
 		8407B5ED2B5D499B004E2BAF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B5EC2B5D499B004E2BAF /* MainTabBarController.swift */; };
 		842D8F712BA4450B001F2CB2 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8F702BA4450B001F2CB2 /* FavoriteViewController.swift */; };
 		8498C9A02BA73EBC0095BD37 /* DSBase in Frameworks */ = {isa = PBXBuildFile; productRef = 8498C99F2BA73EBC0095BD37 /* DSBase */; };
@@ -30,6 +29,8 @@
 		84CF95E52BA8286F004C2E7F /* InjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498C9B22BA7689C0095BD37 /* InjectionTests.swift */; };
 		84CF95E72BA828A7004C2E7F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 84CF95E62BA828A7004C2E7F /* Realm */; };
 		84CF95E92BA828A7004C2E7F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84CF95E82BA828A7004C2E7F /* RealmSwift */; };
+		84E924F62BA87107007FF5E7 /* Pods_DS_ExpertIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD8C8BB629A839301DE7079 /* Pods_DS_ExpertIOS.framework */; };
+		84E924F72BA87107007FF5E7 /* Pods_DS_ExpertIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD8C8BB629A839301DE7079 /* Pods_DS_ExpertIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84E997032B96099400F11199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E997012B96099400F11199 /* LaunchScreen.storyboard */; };
 		84E997092B960A8500F11199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E997082B960A8500F11199 /* Assets.xcassets */; };
 		84E9970F2B960CF500F11199 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9970E2B960CF500F11199 /* Injection.swift */; };
@@ -49,6 +50,20 @@
 			remoteInfo = DS_ExpertIOS;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84E924F82BA87107007FF5E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84E924F72BA87107007FF5E7 /* Pods_DS_ExpertIOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0FD8C8BB629A839301DE7079 /* Pods_DS_ExpertIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DS_ExpertIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,9 +129,9 @@
 				84BD9E942BA71CB300482A03 /* DSCore in Frameworks */,
 				8498C9A32BA74F2B0095BD37 /* DSSearch in Frameworks */,
 				8498C9A02BA73EBC0095BD37 /* DSBase in Frameworks */,
+				84E924F62BA87107007FF5E7 /* Pods_DS_ExpertIOS.framework in Frameworks */,
 				8498C9AB2BA766780095BD37 /* DSProfile in Frameworks */,
 				8498C9A82BA75F030095BD37 /* DSDetailView in Frameworks */,
-				5635170F275124ECD7283D6F /* Pods_DS_ExpertIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +365,7 @@
 				84F323D72B5B8305007265D0 /* Frameworks */,
 				84F323D82B5B8305007265D0 /* Resources */,
 				846165942B8A56970005955F /* SwiftLint */,
+				84E924F82BA87107007FF5E7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -708,9 +724,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4N88KY43XS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DS_ExpertIOS/Info.plist;
@@ -726,6 +743,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aditya.DS-ExpertIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "-Swift.h";
@@ -740,9 +758,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4N88KY43XS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DS_ExpertIOS/Info.plist;
