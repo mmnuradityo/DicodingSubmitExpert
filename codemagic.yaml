@@ -12,7 +12,7 @@ workflows:
     scripts:
       - name: Run tests
         script: |
-          xcodebuild build \
+          xcodebuild run-tests \
             -workspace "$XCODE_WORKSPACE" \
             -scheme "$XCODE_SCHEME" \
             -sdk iphonesimulator \
@@ -25,7 +25,6 @@ workflows:
             -scheme "$XCODE_SCHEME" \
             -sdk iphonesimulator \
             -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.0' \
-            -configuration Debug \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO
