@@ -15,6 +15,7 @@ let package = Package(
     dependencies: [
       .package(url: "https://github.com/mmnuradityo/DSCore.git", .upToNextMajor(from: "1.0.2")),
       .package(url: "https://github.com/square/Cleanse.git", .upToNextMajor(from: "4.0.0")),
+      .package(url: "https://github.com/realm/realm-swift.git", branch: "master"),
       .package(path: "../DSBase")
     ],
     targets: [
@@ -27,6 +28,9 @@ let package = Package(
             ]),
         .testTarget(
             name: "DSDetailViewTests",
-            dependencies: ["DSDetailView"]),
+            dependencies: [
+              .product(name: "RealmSwift", package: "realm-swift"),
+              "DSDetailView"
+            ]),
     ]
 )

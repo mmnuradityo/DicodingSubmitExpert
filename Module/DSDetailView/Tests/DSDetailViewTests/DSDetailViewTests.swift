@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import RealmSwift
 
 @testable import DSDetailView
 final class DSDetailViewTests: XCTestCase {

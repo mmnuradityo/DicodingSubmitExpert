@@ -1,4 +1,5 @@
 import XCTest
+import RealmSwift
 
 @testable import DSProfile
 final class DSProfileTests: XCTestCase {
