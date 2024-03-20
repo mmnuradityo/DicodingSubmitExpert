@@ -64,6 +64,7 @@
 /* Begin PBXFileReference section */
 		8407B5EC2B5D499B004E2BAF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		842D8F702BA4450B001F2CB2 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		844023ED2BAB51DA00B581F9 /* DS_ExpertIOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = DS_ExpertIOS.xctestplan; sourceTree = "<group>"; };
 		8498C99E2BA71DBE0095BD37 /* DSBase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSBase; path = ../Module/DSBase; sourceTree = "<group>"; };
 		8498C9A12BA74D8B0095BD37 /* DSSearch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSSearch; path = ../Module/DSSearch; sourceTree = "<group>"; };
 		8498C9A62BA75B130095BD37 /* DSDetailView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSDetailView; path = ../Module/DSDetailView; sourceTree = "<group>"; };
@@ -182,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				8498C9B22BA7689C0095BD37 /* InjectionTests.swift */,
+				844023ED2BAB51DA00B581F9 /* DS_ExpertIOS.xctestplan */,
 				8498C9BA2BA769790095BD37 /* RouterTests.swift */,
 			);
 			path = DS_ExpertIOSTests;
