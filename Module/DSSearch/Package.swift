@@ -15,7 +15,6 @@ let package = Package(
     dependencies: [
       .package(url: "https://github.com/mmnuradityo/DSCore.git", .upToNextMajor(from: "1.0.2")),
       .package(url: "https://github.com/square/Cleanse.git", .upToNextMajor(from: "4.0.0")),
-      .package(url: "https://github.com/realm/realm-swift.git", branch: "master"),
       .package(path: "../DSBase")
     ],
     targets: [
@@ -24,7 +23,6 @@ let package = Package(
         .target(
             name: "DSSearch",
             dependencies: [
-              .product(name: "RealmSwift", package: "realm-swift"),
               "DSCore",
               "Cleanse",
               "DSBase"
@@ -32,7 +30,6 @@ let package = Package(
         .testTarget(
             name: "DSSearchTests",
             dependencies: [
-              .product(name: "RealmSwift", package: "realm-swift"),
               "DSSearch"
             ]),
     ]

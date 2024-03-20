@@ -6,7 +6,6 @@
 //
 
 import XCTest
-import RealmSwift
 
 @testable import DSSearch
 final class DSSearchBuilderTests: XCTestCase {
