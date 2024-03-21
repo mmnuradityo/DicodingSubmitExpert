@@ -42,10 +42,24 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DSProfileTests"
-               BuildableName = "DSProfileTests"
-               BlueprintName = "DSProfileTests"
-               ReferencedContainer = "container:../Module/DSProfile">
+               BlueprintIdentifier = "DSBaseTests"
+               BuildableName = "DSBaseTests"
+               BlueprintName = "DSBaseTests"
+               ReferencedContainer = "container:../Module/DSBase">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DSDetailViewTests"
+               BuildableName = "DSDetailViewTests"
+               BlueprintName = "DSDetailViewTests"
+               ReferencedContainer = "container:../Module/DSDetailView">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -64,72 +78,16 @@
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DSProfile"
-               BuildableName = "DSProfile"
-               BlueprintName = "DSProfile"
-               ReferencedContainer = "container:../Module/DSProfile">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DSBase"
-               BuildableName = "DSBase"
-               BlueprintName = "DSBase"
-               ReferencedContainer = "container:../Module/DSBase">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DSDetailView"
-               BuildableName = "DSDetailView"
-               BlueprintName = "DSDetailView"
-               ReferencedContainer = "container:../Module/DSDetailView">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DSSearch"
-               BuildableName = "DSSearch"
-               BlueprintName = "DSSearch"
-               ReferencedContainer = "container:../Module/DSSearch">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
             buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DSDetailViewTests"
-               BuildableName = "DSDetailViewTests"
-               BlueprintName = "DSDetailViewTests"
-               ReferencedContainer = "container:../Module/DSDetailView">
+               BlueprintIdentifier = "DSProfileTests"
+               BuildableName = "DSProfileTests"
+               BlueprintName = "DSProfileTests"
+               ReferencedContainer = "container:../Module/DSProfile">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -140,10 +98,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
-         <TestPlanReference
-            reference = "container:DS_ExpertIOSTests/DS_ExpertIOS.xctestplan"
-            default = "YES">
-         </TestPlanReference>
       </TestPlans>
       <Testables>
          <TestableReference
