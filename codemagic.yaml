@@ -4,22 +4,26 @@ workflows:
     environment:
       xcode: latest
       cocoapods: default
+      groups:
+        - fastlane
       vars:
-          XCODE_WORKSPACE: "DS_ExpertIOS/DS_ExpertIOS.xcworkspace"
-          XCODE_SCHEME: "DS_ExpertIOS"
+          BUNDLE_ID: "com.aditya.DS-ExpertIOS" # replace with your app bundle
+          XCODE_WORKSPACE: "DS_ExpertIOS/DS_ExpertIOS.xcworkspace" # Isikan nama project Anda.
+          XCODE_SCHEME: "DS_ExpertIOS" # Isikan nama scheme project Anda.
     scripts:
-      - name: Run tests
+      - name: Run fastlane
         script: |
-          xcode-project run-tests \
-            --workspace "$XCODE_WORKSPACE" \
-            --scheme "$XCODE_SCHEME"
+          cd DS_ExpertIOS
+          bundle install
+          bundle exec fastlane ios unit_test
       - name: Build debug app
         script: |
           xcodebuild build \
-          -workspace "$XCODE_WORKSPACE" \
+          -project "$XCODE_WORKSPACE" \
           -scheme "$XCODE_SCHEME" \
           CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     artifacts:
+      - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
     publishing:
       email:
